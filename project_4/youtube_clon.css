@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid  #ccc;
+    
+    
+    
+}
+
+.youtube_icon img{
+    width: 150px;
+    height: auto;
+  
+}
+
+
+.search-box{
+    display: flex;
+    
+    
+}
+
+.search_bar {
+    min-width: 500px;
+    height: 40px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+}
+
+.search-icon button{
+    height: 40px;
+    width: 50px;
+    
+
+}
+
+
+
+.mic-bar{
+    margin-left: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius:50% ;
+    background-color: rgb(222, 216, 216);
+    display: grid;
+    place-items: center;
+    
+}
+
+.last-four{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    align-items: center;
+}
+
+
+.first-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.first-container p{
+    
+        font-size: 10px;
+        margin-top: -5px;
+      
+}
+
+.first-container img{
+    
+        width: 30px;
+      
+}
+
+.tags {
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+   
+  }
+
+  .tag {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+  }
+
+  .dark {
+    background: #000;
+    color: white;
+  }
+  .light {
+    background: rgb(235, 227, 227);
+    color: rgb(67, 67, 67);
+  }
+
+.main-container {
+    width: 100%;
+    
+  }
+
+  .main2{
+    display: flex;
+  }
+
+  main {
+    
+    min-height: 100vh;
+    background : rgb(240,238,238)
+    
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  .card {
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar-content {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  .card h3 {
+    font-size: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .channel-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .content-status {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+  }
